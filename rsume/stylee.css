@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: .4s linear;
+    
+}
+html{
+    font-size: 10px;
+}
+body{
+    /* background-color: aliceblue; */
+   
+    min-height: 100vh;
+}
+.container{
+    height: 145vh;
+    width: 100%;
+    max-width: 85rem;
+    margin: 3rem auto;
+    /* border: 2px solid black; */
+    box-shadow: 0 3.5rem 5.5rem rgba(0,0,0,0.1);
+   
+}
+.container .top{
+   position: relative;
+    background-color: #21214e;
+  height: 20%;
+  color: white;
+}
+.name h1{
+    font-size: 4rem;
+    padding-top:2rem ;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+.profession h2{
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-bottom: 0.4rem;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+.contact p{
+    font-size: 2rem;
+    
+}
+.contact .head{
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-right: 1rem;
+    font-weight: 700;
+    
+}
+.flex-box{
+    display: flex;
+    padding: 0.3rem;
+}
+
+.flex-box1{
+   padding-bottom: 1rem;
+    width: 56%;
+}
+.container .bottum{
+    position: relative;
+    background-color: whitesmoke;
+    height: 81%;
+    display: flex;
+}
+.bottum .left{
+    position: relative;
+    /* background-color: pink; */
+    width: 63%;
+   
+}
+.bottum .right{
+    position: relative;
+    background-color: hsla(0, 0%, 87%, 0.341);
+    width: 47%;
+}
+.edu-head{
+    display: flex;
+}
+.left{
+    padding: 2rem;
+}
+.head1{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #21214e;
+    padding-top: .5rem;
+    border-bottom: 1px solid #21214e;
+    
+}
+.edu-head{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+.left p{
+font-size: 2rem;
+padding: .2rem 0;
+letter-spacing: .5px;
+} 
+.right p{
+    font-size: 2rem;
+padding: .2rem 0;
+letter-spacing: .5px;
+}
+.proj h3{
+    padding-top: .5rem;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+.right{
+    padding: 2rem;
+}
+.skill-info button{
+    background-color: aliceblue;
+    border-radius: 1.2rem;
+    margin: .5rem;
+    padding: .9rem;
+    text-transform: uppercase;
+}
+.strength-head p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.strength-info p{
+    font-size: 1.7rem;
+}
+.space{
+    padding-top: .5rem;
+}
+.footer
+{
+    background-color: #21214e;
+    color: white;
+    font-size: 2rem;
+    padding-left: 20rem;
+}
+.small{
+text-transform: lowercase;
+}
+.flex-box a{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.flex p{
+    padding: .7rem 0rem 0rem 0.9rem;
+    font-size: 1.8rem;
+}
