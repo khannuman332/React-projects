@@ -1,0 +1,41 @@
+.productpreview img{
+    width: 100%;
+    }
+
+.timesection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+.heartsection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+.heartsection span{
+    color: red;
+    font-size: 50px;
+    animation: beat 1s infinite;
+}
+.heartsection p{
+    margin-top: 10px;
+}
+@keyframes beat {
+    0%{
+        transform: scale(1,1)
+    }
+    50%{
+        transform: scale(1.2,1.2);
+    }
+   100%{
+        transform: scale(1,1)
+    }
+}
